@@ -1,10 +1,10 @@
-import Link from 'next/link';
+import Link from "../src/components/Link";
 
 export default function FAQPage() {
   return (
     <div>
       <h1>FAQ</h1>
-      <Link href="/">Voltar para a página inicial</Link>
+      <Link href="/">Voltar para a página principal</Link>
     </div>
   );
 }
